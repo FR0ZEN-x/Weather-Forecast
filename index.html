@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+        Todo List Application Structure:
+        
+        - Container div wraps the entire application
+        - Header section contains the application title "Todo List"
+        - Content section consists of:
+            1. Input area with:
+               - Text input field for task entry
+               - Add button to submit new tasks
+            2. List area (initially empty) where:
+               - Tasks will be dynamically added
+               - Each task item will contain:
+                 * Task text
+                 * Delete button
+        
+        Note: The commented-out task item serves as a template for dynamic task creation
+    -->
+    <div class="container">
+        <div class="header">
+            <h1>Todo List</h1>
+        </div>
+        <div class="content">
+            <div class="input">
+                <input type="text" id="input" placeholder="Enter your task">
+                <button id="add">Add</button>
+            </div>
+            <div class="list" id="list">
+                <!-- <div class="item">
+                    <p>Task 1</p>
+                    <button class="delete">Delete</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
