@@ -21,14 +21,14 @@ This is a simple weather forecast dashboard that allows users to get the current
 2. Click the "Get Weather" button to fetch and display the weather information.
 3. Use the toggle buttons to switch between Celsius and Fahrenheit units.
 
-## Screenshot
-
-![Homepage](Weather-Forecast_screenshot.png)
-
 ## Setup
 
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in your web browser.
+
+## Screenshot
+
+![Weather Forecast Dashboard](Weather-Forecast_screenshot.png)
 
 ## Author
 
