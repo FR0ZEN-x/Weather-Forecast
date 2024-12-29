@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather Forecast Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -25,21 +25,15 @@
         Note: The commented-out task item serves as a template for dynamic task creation
     -->
     <div class="container">
-        <div class="header">
-            <h1>Todo List</h1>
+        <div class="form">
+            <input type="text" id="city" placeholder="Enter city name">
+            <button onclick="getWeather()">Get Weather</button>
         </div>
-        <div class="content">
-            <div class="input">
-                <input type="text" id="input" placeholder="Enter your task">
-                <button id="add">Add</button>
-            </div>
-            <div class="list" id="list">
-                <!-- <div class="item">
-                    <p>Task 1</p>
-                    <button class="delete">Delete</button>
-                </div> -->
-            </div>
+        <div class="toggle">
+            <button onclick="setUnit('metric')">°C</button>
+            <button onclick="setUnit('imperial')">°F</button>
         </div>
+        <div id="weather-display" class="result"></div>
     </div>
     <script src="script.js"></script>
 </body>
