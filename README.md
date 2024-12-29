@@ -28,7 +28,7 @@ This is a simple weather forecast dashboard that allows users to get the current
 
 ## Screenshot
 
-![Weather Forecast Dashboard](Weather-Forecast_screenshot.png)
+![Weather Forecast Dashboard](1.png)
 
 ## Author
 
